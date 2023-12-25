@@ -12,23 +12,74 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color:hsl(47, 88%, 63%) ;
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: auto;
+    }
+    .container{
+      margin:10% auto;
+      width: 300px;
+      
+      background-color:hsl(0, 0%, 100%) ;
+      border-radius: 10px;
+      border:1px solid black;
+      box-shadow: 10px 10px;
+      padding: auto;
+      
+    }
+    @font-face {
+  font-family: myFirstFont1;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-size: normal;
+}
+@font-face {
+  font-family: myFirstFont2;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-size: normal;
+}
+
+h4,h2{
+  font-family:myFirstFont1;
+}
+    p{
+      color:hsl(0, 0%, 50%);
+      font-family:myFirstFont1;
+    }
+    .photo{
+      width:280px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .a{
+      padding: 10px 0px 0px 10px;
+      margin: 1px;
+    }
+    button{
+      height: 20px;
+      background-color:hsl(47, 88%, 63%);
+      border-radius: 5px; 
+      border: 0px ;
+      font-family: myFirstFont2;
+      color:hsl(0, 0%, 7%);
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <img src="assets/images/illustration-article.svg" class="photo">
+    
+      <div style="padding: 10px;"><button>Learning</button>
+      <h4>Publish 21 Dec 2023</h4>
+      <h2 style="color: hsl(47, 88%, 63%);">HTML & CSS foundations</h2>
+      <p>These languages are back bone of every website,defining structure,content and presentation</p>
+      <div style="display: flex;"><img src="assets/images/image-avatar.webp">
+        <h3>Greg Hooper</h3>
+      </div>
+      </div>
   </div>
+  
 </body>
 </html>
